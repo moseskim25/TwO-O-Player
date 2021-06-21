@@ -1,16 +1,4 @@
-class MathGame
-
-  attr_accessor :lives
-
-  def initialize
-    @lives = 3
-  end
-
-  def lose_life
-    @lives -= 1
-  end
-
-end
+require './MathGame_class'
 
 player1 = MathGame.new
 player2 = MathGame.new
